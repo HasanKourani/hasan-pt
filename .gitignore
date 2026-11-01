@@ -1,0 +1,3 @@
+# Full-size source photos stay local; the site uses the encoded WebPs in assets/img/photos
+photos-src/
+.claude/

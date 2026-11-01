@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>{{title}}</title>
+  <meta name="description" content="{{description}}">
+  <meta name="theme-color" content="#0c0c0e">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{title}}">
+  <meta property="og:description" content="{{description}}">
+  <meta property="og:site_name" content="Hasan Kourani">
+  <meta property="og:url" content="{{url}}">
+  <!-- Link previews (WhatsApp, Instagram, X) need the image as a full https address -->
+  <meta property="og:image" content="{{site}}assets/img/og-image.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Hasan Kourani flexing in the gym, next to the words Built, not born.">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="{{url}}">
+  <link rel="icon" href="assets/img/favicon.png" type="image/png" sizes="128x128">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;700;800&display=swap">
+  <link rel="preload" as="image" href="assets/img/photos/hero.webp" fetchpriority="high">
+  <link rel="stylesheet" href="assets/css/site.css?v={{v}}">
+  <script>
+    // Animations are always on.
+    document.documentElement.classList.add('js', 'motion');
+  </script>
+</head>
+<body data-page="{{page}}">
+  <a class="skip" href="#content">Skip to content</a>
+
+  <header class="nav" id="nav">
+    <div class="nav__bar">
+      <a class="brand" href="#top" aria-label="Hasan Kourani, back to top">
+        <span class="brand__mark mark" aria-hidden="true"><span class="mark__img"></span></span>
+        <span class="brand__word" lang="en">Hasan Kourani</span>
+      </a>
+      <nav class="nav__links" id="nav-links" aria-label="Main">
+        <a href="#honest">About</a>
+        <a href="#programs">Programs</a>
+        <a href="#method">How it works</a>
+        <a href="#faq">FAQ</a>
+        <a href="#book">Book</a>
+      </nav>
+      <div class="nav__actions">
+        <a class="btn btn--accent btn--small nav__cta" href="#book">Free chat</a>
+        <button class="nav__menu" type="button" id="nav-menu" aria-expanded="false" aria-controls="nav-links">
+          <span class="sr-only">Menu</span>
+          <span class="burger" aria-hidden="true"><span></span><span></span></span>
+        </button>
+      </div>
+      <div class="progress" id="progress" aria-hidden="true"><span class="progress__bar"></span></div>
+    </div>
+  </header>
+
+  <main id="content">
+{{content}}
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__grid">
+      <div class="footer__brand">
+        <span class="footer__mark mark" aria-hidden="true"><span class="mark__img"></span></span>
+        <p class="footer__tag">Built, not born.</p>
+      </div>
+      <nav class="footer__pages" aria-label="Sections">
+        <a href="#programs">Programs</a>
+        <a href="#method">How it works</a>
+        <a href="#faq">FAQ</a>
+        <a href="#book">Book</a>
+      </nav>
+      <ul class="footer__links">
+        <li><a data-wa="footer" href="#"><span>WhatsApp</span> <span lang="en" dir="ltr">+961 70 089 237</span></a></li>
+      </ul>
+      <div class="footer__legal"><p>© 2026 Hasan Kourani. Personal training, online and in person.</p></div>
+    </div>
+    <p class="footer__word" id="footer-word" lang="en" aria-hidden="true">Kourani</p>
+  </footer>
+
+  <!-- Phones: a booking bar that appears after the hero and hides near the booking section -->
+  <a class="dock" id="dock" href="#book">
+    <span class="dock__dot" aria-hidden="true"></span>
+    <span>Book a free chat on WhatsApp</span>
+    <svg class="dock__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </a>
+
+  <div class="cursor" id="cursor" aria-hidden="true"><span class="cursor__ring"></span><span class="cursor__dot"></span></div>
+
+  <script src="assets/js/site.js?v={{v}}" defer></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+[
+  {"in": "D:/Gym pics/IMG_2078 (1)(1).jpg", "out": "assets/img/photos/hero.webp", "width": 1100, "aspect": "2:3", "focus": [0.5, 0.395]},
+  {"in": "D:/Gym pics/Use/IMG_1931.jpg", "out": "assets/img/photos/grit-g.webp", "width": 520, "aspect": "3:4", "focus": [0.5, 0.45]},
+  {"in": "D:/Gym pics/Use/IMG_2078 (1)(1).jpg", "out": "assets/img/photos/grit-r.webp", "width": 520, "aspect": "3:4", "focus": [0.5, 0.32]},
+  {"in": "D:/Gym pics/Use/IMG_1906.jpg", "out": "assets/img/photos/grit-i.webp", "width": 520, "aspect": "3:4", "focus": [0.58, 0.48]},
+  {"in": "D:/Gym pics/Use/IMG_2118.jpg", "out": "assets/img/photos/grit-t.webp", "width": 520, "aspect": "3:4", "focus": [0.5, 0.5]},
+  {"in": "D:/Gym pics/Use/IMG_2078 (1).jpg", "out": "assets/img/photos/prog-online.webp", "width": 1000, "aspect": "4:5", "focus": [0.5, 0.35]},
+  {"in": "D:/Gym pics/Use/IMG_2118(1).jpg", "out": "assets/img/photos/prog-one.webp", "width": 1000, "aspect": "4:5", "focus": [0.55, 0.48]},
+  {"in": "D:/Gym pics/Use/IMG-20261009-WA0196 (1).jpg", "out": "assets/img/photos/prog-plan.webp", "width": 1000, "aspect": "4:5", "focus": [0.45, 0.5]},
+  {"in": "D:/Gym pics/Use/IMG_1906.jpg", "out": "assets/img/photos/gal-1.webp", "width": 640, "aspect": "3:4", "focus": [0.55, 0.5]},
+  {"in": "D:/Gym pics/Use/IMG_1931.jpg", "out": "assets/img/photos/gal-2.webp", "width": 640, "aspect": "3:4", "focus": [0.5, 0.5]},
+  {"in": "D:/Gym pics/Use/IMG_2078.jpg", "out": "assets/img/photos/gal-3.webp", "width": 640, "aspect": "3:4", "focus": [0.64, 0.5]},
+  {"in": "D:/Gym pics/Use/IMG-20261009-WA0196 (1).jpg", "out": "assets/img/photos/gal-4.webp", "width": 640, "aspect": "3:4", "focus": [0.45, 0.5]},
+  {"in": "D:/Gym pics/Use/IMG_2118(1).jpg", "out": "assets/img/photos/gal-5.webp", "width": 640, "aspect": "3:4", "focus": [0.55, 0.5]},
+  {"in": "D:/Gym pics/Use/IMG_2077.jpg", "out": "assets/img/photos/gal-6.webp", "width": 640, "aspect": "3:4", "focus": [0.66, 0.5]},
+  {"in": "D:/Gym pics/IMG_2078.jpg", "out": "assets/img/photos/track-bg.webp", "width": 1200, "aspect": "1:1", "focus": [0.5, 0.5]}
+]
